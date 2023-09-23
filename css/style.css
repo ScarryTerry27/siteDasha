@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+
+html {
+  font-family: "Mooli", sans-serif;
+}
+
 @media screen and (max-width: 300px) {
   html {
     overflow-x: scroll;

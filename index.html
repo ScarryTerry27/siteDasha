@@ -3,28 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SiteDasha</title>
+    <title>De.mit.dO</title>
     <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
 </head>
-<body class="whit">
+<body>
     <!-- Шапка сайта -->
-  <header>
+  <header id="header">
     <div class="row section scrollspy" id="menu">
       <div class="col s10 offset-s1">
         <nav>
           <div class="nav-wrapper white">
-            <a href="#" class="brand-logo left blue-text text-darken-4" style="margin-left: 10px;"><span>Logo</span></a>
+            <a href="#" class="brand-logo left blue-text text-darken-4" style="margin-left: 10px;"><span>de.mit.do</span></a>
             <ul id="nav-mobile" class="right">
               <li class ='hide-on-med-and-down'><a href="https://t.me/dora_di"><span class="blue-text text-darken-4">Записаться</span></a></li>
-              <li class ='hide-on-med-and-down'><a href="https://t.me/dora_di"><span class="blue-text text-darken-4">Виды занятий</span></a></li>              
-              <li class ='hide-on-med-and-down'><a href="https://t.me/dora_di"><span class="blue-text text-darken-4">Отзывы</span></a></li>
+              <li class ='hide-on-med-and-down'><a href="#tarifi"><span class="blue-text text-darken-4">Виды занятий</span></a></li>              
+              <li class ='hide-on-med-and-down'><a href="#otzivi"><span class="blue-text text-darken-4">Отзывы</span></a></li>
               <li class ='hide-on-small-only'><a href="https://t.me/dora_di"><i class="fa-brands fa-telegram blue-text text-darken-4"></i></a></li>
               <li class="hide-on-small-only"><a href="instagram.com"><i class="fa-brands fa-instagram blue-text text-darken-4"></i></a></li>
               <li><a href="#"><i data-target="slide-out" class="sidenav-trigger material-icons blue-text text-darken-4 btn white z-depth-0">menu</i></a></li>
@@ -32,14 +30,6 @@
           </div>
         </nav>
       </div>
-      <!-- боковой скрол
-      <div class="col hide-on-small-only m1 l1" style="position: fixed; right: 10px;">
-        <ul class="section table-of-contents blue-text">
-          <li><a class='blue-text text-darken-4' href="#menu">Меню</a></li>
-          <li><a class='blue-text text-darken-4' href="#banner">Баннер</a></li>
-          <li><a class='blue-text text-darken-4' href="#obomne">Обо мне</a></li>
-        </ul>
-      </div> -->
     </div>
     <!-- боковое меню -->
   <ul id="slide-out" class="sidenav">
@@ -49,15 +39,13 @@
         </div>
       <a href="#user"><img class="circle" src="img/obo_mne.png"></a>   
       <a href="#name"><span class="white-text name">Daria Somova</span></a>
-      <a href="#email"><span class="white-text email">dariasomova@gmail.com</span></a>
     </li>
     <li><a href="#!" class="hoverable"><i class="fa-brands fa-instagram"></i>My instagramm</a></li>
     <li><a href="https://t.me/dora_di" class="hoverable"><i class="fa-brands fa-telegram"></i>My telegram</a></li>
     <li><div class="divider"></div></li>
-    <li><a class="subheader">Что то еще</a></li>
-    <li><a class="waves-effect" href="#!">Последняя строка</a></li>
   </ul>
   </header>
+  <!-- баннер -->
   <div id='banner' class="row section scrollspy">
     <div class="col s10 offset-s1">
       <div class="slider hoverable" style="margin-bottom: 50px;">
@@ -65,33 +53,33 @@
           <li>
             <img src="./img/slides_phone1.png">
             <div class="caption">
-              <h3>Крутой заголовок</h3>
-              <p class="hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, fugit?</p>
-              <p><a class="btn small waves-effect left pulse indigo lighten-1 flow-text">Записаться</a></p>
+              <h3>Немецкий язык</h3>
+              <p class="hide-on-small-only">В любое время из любой точки мира на удобной платформе</p>
+              <p><a class="btn small waves-effect left pulse indigo lighten-1 flow-text" href="https://t.me/dora_di">Записаться</a></p>
             </div>
           </li>
           <li>
             <img src="./img/slides_phone_2.png">
             <div class="caption">
-              <h3 class="flow-text">Цитата внизу пушка страшная"</h3>
-              <p class="hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, fugit?</p>
-              <p><button class="btn small waves-effect left pulse indigo lighten-1 flow-text">Записаться</p>
+              <h3>Подготовка к экзаменам</h3>
+              <p class="hide-on-small-only">Для учебы, работы и переезда</p>
+              <p><button class="btn small waves-effect left pulse indigo lighten-1 flow-text" href="https://t.me/dora_di">Записаться</p>
             </div>
           </li>
           <li>
             <img src="./img/slides_3.png">
             <div class="caption">
-              <h3>Джейсон Стетхем</h3>
-              <p class="hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, fugit?</p>
-              <p><button class="btn small waves-effect left pulse indigo lighten-1 flow-text">Записаться</p>
+              <h3>Срочная сдача экзамена</h3>
+              <p class="hide-on-small-only">Подтверждение уровня уже через 2-3 месяца</p>
+              <p><button class="btn small waves-effect left pulse indigo lighten-1 flow-text" href="https://t.me/dora_di">Записаться</p>
             </div>
           </li>
           <li>
             <img src="./img/slides_4.png">
             <div class="caption">
-              <h3>Что то тут должно зацепить</h3>
-              <p class="hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, fugit?</p>
-              <p><button class="btn small waves-effect left pulse indigo lighten-1 flow-text">Записаться</p>
+              <h3>Живой немецкий язык</h3>
+              <p class="hide-on-small-only">Учим язык по фильмам, подкастам и социальным сетям</p>
+              <p><button class="btn small waves-effect left pulse indigo lighten-1 flow-text" href="https://t.me/dora_di">Записаться</p>
             </div>
           </li>
         </ul>
@@ -113,8 +101,8 @@
                 <p>
                   <i style='position: relative; top:3px' class="material-icons tiny">check</i>Goethe Zertifikat C2 — уровень носителя языка<br>
                   <i style='position: relative; top:3px' class="material-icons tiny">check</i>работала в немецкой компании<br>
-                  <i style='position: relative; top:3px' class="material-icons tiny">check</i>первый диплом — лингвист<br>
-                  <i style='position: relative; top:3px' class="material-icons tiny">check</i>второй диплом — переводчик<br>
+                  <i style='position: relative; top:3px' class="material-icons tiny">check</i>два диплома — лингвист и переводчик<br>
+                  <i style='position: relative; top:3px' class="material-icons tiny">check</i>опыт работы с группами и индивидуально 6 лет
                 </p>
               </ul>
             </div>
@@ -126,22 +114,9 @@
               <ul>
                 <p>
                   <i style='position: relative; top:3px' class="material-icons tiny">check</i>повышение квалификации «ведение проф. деятельности онлайн»<br>
-                  <i style='position: relative; top:3px' class="material-icons tiny">check</i>повышение квалификации «подготовка к ЕГЭ и ОГЭ»<br>
-                  <i style='position: relative; top:3px' class="material-icons tiny">check</i>классные и удобные платформы на уроке
-                </p>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <img src="./img/obomne_2.png">
-            <div class="caption center-align">
-              <h4>А также</h4>
-              <ul>
-                <p>
+                  <i style='position: relative; top:3px' class="material-icons tiny">check</i>классные и удобные платформы на уроке<br>
                   <i style='position: relative; top:3px' class="material-icons tiny">check</i>успешные сдачи международных экзаменов у студентов<br>
-                  <i style='position: relative; top:3px' class="material-icons tiny">check</i>уроки по видео, фильмам, книгам и журналам<br>
                   <i style='position: relative; top:3px' class="material-icons tiny">check</i>состою в школе для учителей «Вместе»<br>
-                  <i style='position: relative; top:3px' class="material-icons tiny">check</i>опыт работы с группами и индивидуально 6 лет<br>
                 </p>
               </ul>
             </div>
@@ -151,119 +126,155 @@
     </div>
   </div>
     <!--тарифы  -->
-  <div class="row">
+  <div class="row" id="tarifi">
     <h2 class="center blue-text text-darken-4">Занятия</h2>
-    <div class="col s10 offset-s1 m5 offset-m1 l4 offset-l2">
+    <div class="col s10 offset-s1 m4 offset-m2 xl2 offset-xl2">
       <div class="card">
-        <div class="card-image">
-            <img class='responsive-img circle' src="img/new_foto.png">
-            <span class="card-title">Общий немецкий</span>
-            <a class="btn-floating pulse halfway-fab waves-effect waves-light indigo lighten-1"><i class="material-icons">add</i></a>
+        <div class="card-image waves-effect waves-block waves-light">
+            <img class='responsive-img activator' src="img/new_foto.png">
+            <span class="card-title center">Общий немецкий</span>
         </div>
         <div class="card-content">
-            <p>1500 уровни А1-С1</p>
+          <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+            <p>Узнать подробнее:</p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title activator"><i class="material-icons right">close</i></span>
+          <span class="card-title grey-text text-darken-4">Общий немецкий</span>
+          <p>Давно мечтали выучить немецкий язык? Или переехали в другую страну, где он необходим для жизни? Тогда это то, что Вам нужно! Интеграционный курс с опорой на самые важные темы и актуальную лексику.</p>
+          <p>Цена: 1500р/занятие</p>
         </div>
       </div>
     </div>
-    <div class="col s10 offset-s1 m5 l4">
+    <div class="col s10 offset-s1 m4 xl2">
         <div class="card">
-          <div class="card-image">
-            <img class='responsive-img' src="img/new_foto1.png">
-            <span class="card-title">Медицинский немецкий</span>
-            <a class="btn-floating pulse halfway-fab waves-effect waves-light indigo lighten-1"><i class="material-icons">add</i></a>
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class='responsive-img activator' src="img/new_foto1.png">
+            <span class="card-title center">Медицинский немецкий</span>
           </div>
           <div class="card-content">
-            <p>1700 уровни А2-В2</p>
+            <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+            <p>Узнать подробнее:</p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title activator"><i class="material-icons right">close</i></span>
+            <span class="card-title grey-text text-darken-4">Медицинский немецкий</span>
+            <p>Немецкий язык для медсестер (А1-А2) и для врачей (В1+), включающий в себя изучение необходимой лексики и отработку возможных ситуаций по специализированным пособиям.</p>
+            <p>Цена: 2000р/занятие</p>
           </div>
         </div>
     </div>
-    <div class="col s10 offset-s1 m5 offset-m1 l4 offset-l2">
+    <div class="col s10 offset-s1 m4 offset-m2 xl2">
         <div class="card">
-          <div class="card-image">
-            <img class='responsive-img' src="img/new_foto2.png">
-            <span class="card-title">Немецкий для работы</span>
-            <a class="btn-floating pulse halfway-fab waves-effect waves-light indigo lighten-1"><i class="material-icons">add</i></a>
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class='responsive-img activator' src="img/new_foto2.png">
+            <span class="card-title center">Немецкий для работы</span>
           </div>
           <div class="card-content">
-            <p>1700 В1-В2+</p>
+            <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+            <p>Узнать подробнее:</p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title activator"><i class="material-icons right">close</i></span>
+            <span class="card-title grey-text text-darken-4">Немецкий для работы</span>
+            <p>Не знаете как завести диалог с коллегой или как подступиться к презентации, которую шеф поручил Вам? На занятиях мы разберем самые важные аспекты Вашей работы, выстроив курс именно под Вас. Рекомендованный уровень - В1+.</p>
+            <p>Цена: 1700р/занятие</p>
           </div>
         </div>
     </div>
-    <div class="col s10 offset-s1 m5 l4">
+    <div class="col s10 offset-s1 m4 xl2">
         <div class="card">
-          <div class="card-image">
-            <img class='responsive-img' src="img/new_foto4.png">
-            <span class="card-title">Goethe Zertifikat</span>
-            <a class="btn-floating pulse halfway-fab waves-effect waves-light indigo lighten-1"><i class="material-icons">add</i></a>
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class='responsive-img activator' src="img/new_foto4.png">
+            <span class="card-title center">Goethe Zertifikat</span>
           </div>
           <div class="card-content">
-            <p>1700 А1-С1</p>
+            <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+            <p>Узнать подробнее:</p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title activator"><i class="material-icons right">close</i></span>
+            <span class="card-title grey-text text-darken-4">Goethe Zertifikat</span>
+            <p>Как сдать экзамен? На что обратить внимание при выполнении заданий? Как экзаменаторы оценивают Вашу работу? Ответы на эти и многие другие вопросы Вы получите на наших занятиях</p>
+            <p>Цена: 1700р/урок</p>
           </div>
         </div>
     </div>
-    <div class="col s10 offset-s1 m5 offset-m1 l4 offset-l2">
+    <div class="col s10 offset-s1 m4 offset-m2 xl2 offset-xl2">
         <div class="card">
-          <div class="card-image">
-            <img class='responsive-img' src="img/new_foto3.png">
-            <span class="card-title">Срочная сдача экзамена</span>
-            <a class="btn-floating pulse halfway-fab waves-effect waves-light indigo lighten-1"><i class="material-icons">add</i></a>
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class='responsive-img activator' src="img/new_foto3.png">
+            <span class="card-title center">Срочная сдача экзамена</span>
           </div>
           <div class="card-content">
-            <p>А1-А2 2000</p>
+            <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+            <p>Узнать подробнее:</p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title activator"><i class="material-icons right">close</i></span>
+            <span class="card-title grey-text text-darken-4">Срочная сдача экзамена</span>
+            <p>До экзамена осталось 2-3 месяца, а Вы никогда не учили немецкий? Не спешите сдаваться или менять планы! Уже несколько лет я помогаю студентам воплотить в жизнь свои даже самые смелые фантазии.</p>
+            <p>Цена: 2000р/занятие</p>
           </div>
         </div>
     </div>
-    <div class="col s10 offset-s1 m5 l4">
+    <div class="col s10 offset-s1 m4 xl2">
       <div class="card">
-        <div class="card-image">
-          <img class='responsive-img' src="img/new_foto5.png">
-          <span class="card-title">Консультация перед экзаменом</span>
-          <a class="btn-floating pulse halfway-fab waves-effect waves-light indigo lighten-1"><i class="material-icons">add</i></a>
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class='responsive-img activator' src="img/new_foto5.png">
+          <span class="card-title center">Консультация перед экзаменом</span>
         </div>
         <div class="card-content">
-          <p>1700</p>
+          <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+          <p>Узнать подробнее:</p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title activator"><i class="material-icons right">close</i></span>
+          <span class="card-title grey-text text-darken-4">Консультация перед экзаменом</span>
+          <p>Вы изучали язык самостоятельно, но не знаете требования экзамена? Для таких случаев я предлагаю встречу, где расскажу обо всех особенностях Вашего уровня, дам советы и поделюсь хитростями, которые облегчат Ваш путь.</p>
+          <p>Цена: 1700р/час</p>
         </div>
       </div>
     </div>
-    <div class="col s10 offset-s1 m5 offset-m1 l4 offset-l2">
+    <div class="col s10 offset-s1 m4 offset-m2 xl2">
       <div class="card">
-        <div class="card-image">
-          <img class='responsive-img' src="img/new_foto7.png">
-          <span class="card-title">Асинхронное обучение</span>
-          <a class="btn-floating pulse halfway-fab waves-effect waves-light indigo lighten-1"><i class="material-icons">add</i></a>
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class='responsive-img activator' src="img/new_foto7.png">
+          <span class="card-title center">Консультация преподавателям</span>
         </div>
         <div class="card-content">
-        <p>8000/месяц</p>
+          <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+          <p>Узнать подробнее:</p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title activator"><i class="material-icons right">close</i></span>
+          <span class="card-title grey-text text-darken-4">Консультация преподавателям</span>
+          <p>Если к Вам пришел студент, которому нужно срочно сдать экзамен, я с удовольствием поделюсь с Вами особенностями такого формата на нашей встрече, после которой Вы получите пошаговый план именно под Вашего студента.</p>
+          <p>Цена: 3990/встреча</p>
         </div>
       </div>
     </div>
-    <div class="col s10 offset-s1 m5 l4">
-      <div class="card">
-        <div class="card-image">
-          <img class='responsive-img' src="img/new_foto6.png">
-          <span class="card-title">Срочная сдача экзамена</span>
-          <a class="btn-floating pulse halfway-fab waves-effect waves-light indigo lighten-1"><i class="material-icons">add</i></a>
-        </div>
-        <div class="card-content">
-          <p>А1-А2 2000</p>
-        </div>
-      </div>
-    </div>
-    <div class="col s10 offset-s1 m5 offset-m1 l4 offset-l2">
+    <div class="col s10 offset-s1 m4 xl2">
     <div class="card">
-      <div class="card-image">
-        <img class='responsive-img' src="img/new_foto8.png">
-        <span class="card-title">Курс по сильным глаголам</span>
-        <a class="btn-floating pulse halfway-fab waves-effect waves-light indigo lighten-1"><i class="material-icons">add</i></a>
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class='responsive-img activator' src="img/new_foto8.png">
+        <span class="card-title center">Курс по сильным глаголам</span>
       </div>
       <div class="card-content">
-        <p>3990 (в разработке)</p>
+        <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+        <p>Узнать подробнее:</p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title activator"><i class="material-icons right">close</i></span>
+        <span class="card-title grey-text text-darken-4">Курс по сильным глаголам</span>
+        <p>Удобный тренажер тех самых глаголов, которые с таким трудом даются студентам</p>
+        <p>Цена: скоро</p>
       </div>
     </div>
     </div>
   </div>
   <!-- гадерея отзывов -->
-  <div class="row">
+  <div class="row" id="otzivi">
     <h2 class="center col s10 offset-s1 blue-text text-darken-4">Отзывы</h2>
     <div class="carousel hoverable z-depth-1 col s10 offset-s1 blue lighten-5" style="height: 500px; z-index: 1;">
       <a class="carousel-item" href="#two!"><img class='materialboxed responsive-img' src="img/Otzivi/2.jpg"></a>
@@ -278,37 +289,6 @@
       <a class="carousel-item" href="#one!"><img class='materialboxed responsive-img' src="img/Otzivi/10.jpg"></a>
     </div>
   </div>
-  <!-- мои ученики
-  <div class="row">
-    <h2 class="white-text center blue-text text-darken-4 col s10 offset-s1">Мои ученики</h2>
-    <ul class="collection hoverable col s10 offset-s1">
-      <li class="collection-item avatar blue darken-4">
-        <img src="img/success.jpg" alt="" class="circle">
-        <p class="flow-text white-text" style="margin-top: 10px; padding-right: 20px;">Успешно сдают Goethe Zertifikat</p>
-        <a href="#!" class="secondary-content"><i class="material-icons hide-on-med-and-down white-text">grade</i></a>
-      </li>
-      <li class="collection-item avatar blue darken-4">
-        <img src="img/earth.png" alt="" class="circle">
-        <p class="flow-text white-text" style="margin-top: 10px; padding-right: 20px;">Переезжают в другие страны без страха и языкового барьера</p>
-        <a href="#!" class="secondary-content"><i class="material-icons hide-on-med-and-down white-text">grade</i></a>
-      </li>
-      <li class="collection-item avatar blue darken-4">
-        <img src="img/stipendiya.jpg" alt="" class="circle">
-        <p class="flow-text white-text" style="margin-top: 10px; padding-right: 20px;">Поступают в иностранные ВУЗы и получают стипендии</p>
-        <a href="#!" class="secondary-content"><i class="material-icons hide-on-med-and-down white-text">grade</i></a>
-      </li>
-      <li class="collection-item avatar blue darken-4">
-        <img src="img/video.png" alt="" class="circle">
-        <p class="flow-text white-text" style="margin-top: 10px; padding-right: 20px;">Читают и смотрят различные источники в оригинале</p>
-        <a href="#!" class="secondary-content"><i class="material-icons hide-on-med-and-down white-text">grade</i></a>
-      </li>
-      <li class="collection-item avatar blue darken-4">
-        <img src="img/znaniya.jpg" alt="" class="circle">
-        <p class="flow-text white-text" style="margin-top: 10px; padding-right: 20px;">Получают удовольствие от приобретения новых знаний и умений</p>
-        <a href="#!" class="secondary-content"><i class="material-icons hide-on-med-and-down white-text">grade</i></a>
-      </li>
-    </ul>
-  </div> -->
   <!-- вопросы -->
   <div class="row">
     <h2 class="center blue-text text-darken-4 s10 offset-s1">Часто задаваемые вопросы</h2>
@@ -353,11 +333,20 @@
       </ul>
     </div>
   </div>
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large blue text-darken-4">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating green" href="#header"><i class="material-icons">arrow_upward</i></a></li>
+      <li><a class="btn-floating green" href="https://t.me/dora_di"><i class="material-icons">mode_edit</i></a></li>
+    </ul>
+  </div>
   <footer class="page-footer white">
-    <div class="footer-copyright">
+    <div class="footer-copyright white">
       <div class="container">
-        <span class="blue-text text-darken-4">© 2014 Copyright Text</span>
-        <a class="blue-text text-darken-4 right" href="#!">More Links</a>
+        <span class="blue-text text-darken-4 center" style="display: block;">© 2023 Частичное или полное копирование информации с данного сайта для распространения на других ресурсах, в том числе и бумажных, строго запрещено.</span><br>
+        <a class="blue-text text-darken-4 center" style="display: block;" href="https://t.me/ilyas_khasakhanov">Powered by Ilyas</a>
       </div>
     </div>
   </footer>
